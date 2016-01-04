@@ -1,0 +1,20 @@
+<?php include('../header.php') ?>
+
+<div class="c8">&nbsp</div>
+<div class="c3_4">
+	<h2 class="section_heading">Dodger fan redesign</h2>
+	<div class="content_wrapper c1">
+		<a class="project-link" target="blank" href="http://riberablue.com/">Link to site</a>
+		<p class="project-paragraph">
+			 The Ribera Blue website, was the first paid client work I have ever done. This meant that I had to create a more structured plan when creating the webstie, including a contract, design sketches, a strong market research and product design. 
+		</p>
+		<p class="project-paragraph">
+			 The site was intended to promote the sale of a house in Spain, which meant that I had to look at what type of audience would be interested in learning more about the site. What kind of site would they like to see, regarding visual design, and what kind of knowledge they would have around computer use. All these thoughts, brought the build to a very specific design, focusing on elegance, simplicity and ease of use. 
+		<p class="project-paragraph">
+			 Technically, the webiste, was quite easy to build, as it didn't have any difficult parts to it, and I used plugins like jQuery and Lightbox to make the development faster and easier. It was when working with the client that made things difficult, as he didn't want to have a CMS and wanted me to upload the content directly within the HTML, which made latter updates very uncomfortable, as well, as wanting some questionable design decisions, like a very long background video, which made the site of a much bigger size than it should have been or, color and layout design. 
+		</p>
+	</div>
+</div>
+
+
+<?php include('../footer.php') ?>

@@ -1,0 +1,157 @@
+// GLOBAL COLORS
+
+body {
+	color: $main-color;
+}
+
+// GLOBAL FONTS
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+dt {
+	font-family: $h-font;
+	text-transform: uppercase;
+}
+
+ul,
+ol,
+dd,
+p {
+	font-family: $p-font;
+}
+
+// GLOBAL LINK STYLING
+
+a{
+	color: inherit;
+	text-decoration: none;
+
+	&:hover {
+		text-decoration: underline;
+		text-decoration-color: $accent-color;
+	}
+}
+
+// HEADINGS
+
+.site_heading {
+	margin: 50px 0 0 10%;
+	padding: 0 0 0 0;
+	border-bottom: 2px solid $accent-color;
+	font-size: 40px;
+	letter-spacing: 15px;
+}
+
+.section_heading {
+	margin: 10vh 10%;
+	padding: 0 0 10px 0;
+	border-bottom: 2px solid $accent-color;
+	float: left;
+	font-size: 36px;
+	letter-spacing: 5px;
+}
+
+.sub_heading {
+	margin: 2vh 0 0 10%;
+	font-size: 14px;
+	letter-spacing: 2px;
+	font-weight: 100;
+}
+
+// PARAGRAPHS
+
+.paragraph {
+	margin: 10vh 10% 0 10%;
+	letter-spacing: 3px;
+	line-height: 2;
+	font-size: 24px;
+	font-weight: 300;
+	font-family: "Lato", sans-serif;
+
+	&:first-letter {
+		color: $accent-color;
+	}
+}
+
+// WORK SECTION
+
+	// WORK BOXES
+
+.box-sub_heading {
+	margin: 12vw 0;
+	font-size: 14px;
+	text-align: center;
+	letter-spacing: 2px;
+	font-weight: 100;
+
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+// SKILLS PAGE
+
+.skills-web_section {
+	color: white;
+	background: $main-color;
+}
+
+.skills-section_heading {
+	width: 92%;
+	@extend .section_heading;
+	letter-spacing: 0;
+	border: 0;
+}
+
+dt {
+	margin: 5%;
+	font-size: 24px;
+	letter-spacing: 2px;
+}
+
+dd {
+	@extend .paragraph;
+	margin-top: 5vh;
+	font-size: 20px;
+}
+
+// CONTACT PAGE
+
+.dark {
+	margin: 10vh 0	 0 0;
+	padding: 0 0 5vh 0;
+	background: $main-color;
+	color: white;
+}
+
+.dark-intro {
+	@extend .section_heading;
+	border: 0;
+	font-size: 32px;
+	letter-spacing: 0;
+}
+
+.contact-sub_heading {
+	@extend .sub_heading;
+	margin-bottom: 10vh;
+}
+
+// PROJECTS
+
+.project-paragraph {
+	@extend .paragraph;
+	margin: 3vh;
+}
+
+.project_list {
+	@extend .project-paragraph;
+}
+
+.project-link {
+	margin: 0 0 0 10%;
+	color: $accent-color;
+}

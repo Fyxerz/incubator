@@ -1,10 +1,11 @@
 <?php include('header.php') ?>
 
 <header>
-	<h1>What I do.</h1>
+	<h1 class="section_heading">What I do.</h1>
 </header>
-<div class="c2">
-	<h2>UX design</h2>
+<div class="c2 padded">
+	<h2 class="skills-section_heading">UX design</h2>
+	<div class="c1"></div>
 	<dl>
 		<dd>
 			While still a student, I have worked in several projects hat have helped me stablish a good knowledge of good UX design I believe that the process to good UX is based on three things that should be equally present within the time working on a project. 
@@ -23,8 +24,9 @@
 		</dd>
 	</dl>
 </div>
-<div class="c2">
-	<h2>Web development</h2>
+<div class="c2 padded skills-web_section">
+	<h2 class="skills-section_heading">Web development</h2>
+	<div class="c1"></div>
 	<dl>
 		<dt>HTML 5</dt>
 		<dd>

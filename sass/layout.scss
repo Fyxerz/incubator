@@ -1,0 +1,147 @@
+// GLOBAL RESETS
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: $bg-color;
+}
+
+// GRID
+
+.padded {
+	padding: 0 2.5%;
+}
+
+.c1 {
+	width: 100%;
+	float: left;
+}
+
+.c2 {
+	width: 50%;
+	float: left;
+}
+
+.c3 {
+	width: 33.33%;
+	float: left;
+}
+
+.c4 {
+	width: 25%;
+	float: left;
+}
+
+// PROJECTS
+
+.c3_4 {
+	width: 75%;
+	float: left;
+}
+
+.c8 {
+	width: 12.5%;
+	float: left;
+}
+
+// HEADER
+
+header {
+	width: 100%;
+	float: left;
+}
+
+// FOOTER
+
+footer {
+	width: 100%;
+	float: left;
+	background: inherit;
+}
+
+
+
+// NON-JS MENU
+
+.nav_menu {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 10;
+	background: $bg-color;
+}
+
+.nav_menu-ul {
+	padding: 0 0 3vh 0;
+	list-style-type: none;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+
+		// Using global calls and nesting only on repeated entities.
+	li{
+		width: 33.333333%;
+		float: left;
+	}
+}
+
+// INTRO SECTION
+
+.intro {
+	height: 100vh;
+	float: left;
+	position: fixed;
+	top: 50px;
+	z-index: -10;
+	overflow: hidden;
+	color: white;
+	background: black;
+}
+
+.intro-intro_img {
+	width: 100%;
+	margin: -20vh -20%;
+	float: right;
+}
+
+// WORK SECTION
+
+.work {
+	float: left;
+	margin: 100vh 0 0 0;
+	background: inherit;
+}
+
+.box {
+	width: 50%;
+	height: 25vw;
+	float: left;
+	color: white;
+	cursor: pointer;
+	transition: 0.2s;
+
+	&:nth-child(1) {
+		background: #C99FB1;
+	}
+
+	&:nth-child(2) {
+		background: #E39898;
+	}
+
+	&:nth-child(3) {
+		background: #E6C6A3;
+	}
+
+	&:nth-child(4) {
+		background: #C4C4C4;
+	}
+
+	&:hover {
+		z-index: 1000;
+		border-radius: 100%;
+		-webkit-transform: scale(1.5);
+		        transform: scale(1.5);
+	}
+}
