@@ -1,3 +1,39 @@
+@media screen and (max-width: 980px) {
+  .c2 {
+    width: 90%;
+    margin: 0 5%; }
 
+  .intro-intro_img {
+    display: none; }
+
+  .c4 {
+    width: 100%; }
+
+  .js_nav_menu {
+    right: 0; }
+
+  .js_nav_menu-ul {
+    float: left;
+    width: 100%; }
+
+  .box {
+    height: 45vw; }
+
+  .box-sub_heading {
+    margin: 20vw 0; } }
+@media screen and (max-width: 480px) {
+  .site_heading {
+    font-size: 26px; }
+
+  .sub_heading {
+    font-size: 8px; }
+
+  .paragraph {
+    margin-top: 5vh;
+    font-size: 16px;
+    line-height: 1.5; }
+
+  .section_heading {
+    font-size: 22px; } }
 
 /*# sourceMappingURL=adaptive.css.map */

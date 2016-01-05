@@ -2,7 +2,7 @@
 
 <div class="c8">&nbsp</div>
 <div class="c3_4">
-	<h2 class="section_heading">Dodger fan redesign</h2>
+	<h2 class="section_heading">Ribera blue website</h2>
 	<div class="content_wrapper c1">
 		<a class="project-link" target="blank" href="http://riberablue.com/">Link to site</a>
 		<p class="project-paragraph">

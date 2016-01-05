@@ -59,6 +59,7 @@ a{
 	margin: 2vh 0 0 10%;
 	font-size: 14px;
 	letter-spacing: 2px;
+	text-transform: uppercase;
 	font-weight: 100;
 }
 
@@ -154,4 +155,14 @@ dd {
 .project-link {
 	margin: 0 0 0 10%;
 	color: $accent-color;
+}
+
+.back_button {
+	@extend .sub_heading;
+	border: 0;
+	float: right;
+	color: inherit;
+	font-size: 22px;
+	background: none;
+	font-family: $h-font;
 }

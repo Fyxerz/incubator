@@ -414,6 +414,47 @@ footer {
     width: 33.333333%;
     float: left; }
 
+.js_menu_button {
+  border: 0;
+  display: none;
+  position: fixed;
+  top: 20px;
+  right: 50px;
+  z-index: 100;
+  background: none; }
+
+.js_menu_bar {
+  width: 35px;
+  height: 2px;
+  margin-bottom: 7px;
+  background: #FFB347; }
+
+.js_nav_menu {
+  height: 100vh;
+  position: fixed;
+  right: 30px;
+  z-index: 20;
+  background: inherit;
+  transition: .2s; }
+
+.hide {
+  margin: -100vh 0 0 0; }
+
+.js-menu-section_heading {
+  display: none; }
+
+.js_nav_menu-ul {
+  padding: 0;
+  list-style-type: none; }
+  .js_nav_menu-ul li {
+    text-align: center;
+    margin: 5vh 0 10vh 0;
+    text-transform: uppercase;
+    letter-spacing: 3px; }
+
+.js-display {
+  display: block; }
+
 .intro {
   height: 100vh;
   float: left;
@@ -425,14 +466,22 @@ footer {
   background: black; }
 
 .intro-intro_img {
-  width: 100%;
+  width: 110%;
   margin: -20vh -20%;
   float: right; }
 
+.js_intro_position {
+  top: 0; }
+
 .work {
+  width: 100%;
+  min-height: 80vh;
   float: left;
   margin: 100vh 0 0 0;
   background: inherit; }
+
+.ajax_context {
+  display: none; }
 
 .box {
   width: 50%;
@@ -488,7 +537,7 @@ a {
   font-size: 40px;
   letter-spacing: 15px; }
 
-.section_heading, .skills-section_heading, .dark-intro {
+.section_heading, .js-menu-section_heading, .skills-section_heading, .dark-intro {
   margin: 10vh 10%;
   padding: 0 0 10px 0;
   border-bottom: 2px solid #FFB347;
@@ -496,10 +545,11 @@ a {
   font-size: 36px;
   letter-spacing: 5px; }
 
-.sub_heading, .contact-sub_heading {
+.sub_heading, .contact-sub_heading, .back_button {
   margin: 2vh 0 0 10%;
   font-size: 14px;
   letter-spacing: 2px;
+  text-transform: uppercase;
   font-weight: 100; }
 
 .paragraph, dd, .project-paragraph, .project_list {
@@ -559,5 +609,51 @@ dd {
 .project-link {
   margin: 0 0 0 10%;
   color: #FFB347; }
+
+.back_button {
+  border: 0;
+  float: right;
+  color: inherit;
+  font-size: 22px;
+  background: none;
+  font-family: "Montserrat", helvetica, sans-serif; }
+
+@media screen and (max-width: 980px) {
+  .c2 {
+    width: 90%;
+    margin: 0 5%; }
+
+  .intro-intro_img {
+    display: none; }
+
+  .c4 {
+    width: 100%; }
+
+  .js_nav_menu {
+    right: 0; }
+
+  .js_nav_menu-ul {
+    float: left;
+    width: 100%; }
+
+  .box {
+    height: 45vw; }
+
+  .box-sub_heading {
+    margin: 20vw 0; } }
+@media screen and (max-width: 480px) {
+  .site_heading {
+    font-size: 26px; }
+
+  .sub_heading, .contact-sub_heading, .back_button {
+    font-size: 8px; }
+
+  .paragraph, dd, .project-paragraph, .project_list {
+    margin-top: 5vh;
+    font-size: 16px;
+    line-height: 1.5; }
+
+  .section_heading, .js-menu-section_heading, .skills-section_heading, .dark-intro {
+    font-size: 22px; } }
 
 /*# sourceMappingURL=style.css.map */

@@ -18,6 +18,7 @@
 		</ul>
 	</div>
 </footer> -->
-
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="scripts/main.js"></script>
 </body>
 </html>
